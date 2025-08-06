@@ -1,0 +1,17 @@
+{
+  "name": "winterbreak2",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Mesquito-Less Kindle JB",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
