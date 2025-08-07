@@ -11,7 +11,7 @@ const app = express();
 
 app.get("/", (req, res) => {
     const fPath = path.join(path.join(process.cwd(), "assets"), "placeholder.mobi");
-    const fName = `<script>document.documentElement.innerHTML = "<html><body><style>* { margin: 0px } h1, p { font-family: arial, sans-serif, helvetica } button { padding: 15px 15px 15px 15px }</style><h1>Winterbreak2</h1><br><p>By Scam.Net, Penguins184</p><br><button onclick='(window.kindle || top.kindle).messaging.sendMessage(\"com.lab126.pillow\", \"customDialog\", { name: \"../../../../mnt/us/winterbreak2/dialoger\" })'>Jailbreak</button></body></html>"</script>`; //Dialog Code
+    const fName = `<script>document.documentElement.innerHTML = "<html><body><style>* { margin: 0px } h1, p { font-family: arial, sans-serif, helvetica } button { padding: 15px 15px 15px 15px }</style><h1>Winterbreak2</h1><br><p>By Scam.Net, Penguins184</p><br><button onclick='(window.kindle || top.kindle).messaging.sendMessage(\"com.lab126.pillow\", \"customDialog\", { name: \"../../../../mnt/us/winterbreak2/dialoger\" })'>Jailbreak</button></body></html>"</script>.mobi`; //Dialog Code
 
     res.set({
         "Content-Type": "application/x-mobipocket-ebook",
