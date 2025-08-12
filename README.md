@@ -7,7 +7,7 @@
 
 1. Get `wb2.zip` from releases and unzip it into your kindle's root. 
 2. Once done, open up the experimental browser and navigate to `https://winterbreak2.now.sh/`
-3. A dialog should open, press the jailbreak button, jailbreaking should commence.
+3. Press the jailbreak button, a dialog will open, jailbreaking should commence.
 
 ## Credits
 
